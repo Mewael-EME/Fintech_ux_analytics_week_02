@@ -15,3 +15,4 @@ This project collects and analyzes Google Play Store reviews for:
 - Python, pandas
 - google-play-scraper
 - Git + GitHub
+"# Fintech_ux_analytics_week_02" 
