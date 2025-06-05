@@ -6,10 +6,23 @@ This project collects and analyzes Google Play Store reviews for:
 - Dashen Bank
 - Awash Bank
 
-## Task 1: Data Collection and Preprocessing
-- Scraping reviews
-- Cleaning and saving as CSV
-- Prepping for sentiment analysis
+## Methodology
+
+### 1. Web Scraping
+- Collected reviews from Google Play Store for:
+  - Commercial Bank of Ethiopia
+  - Dashen Bank
+  - Bank of Abyssinia
+- Collected fields: review text, rating, date, bank name, source.
+
+### 2. Data Preprocessing
+- Removed duplicate reviews
+- Dropped rows with missing or junk content
+- Filtered out reviews with emojis or non-standard characters
+- Normalized dates to `YYYY-MM-DD` format
+- Final output saved as a clean CSV with:
+  - `review`, `rating`, `date`, `bank`, `source`
+
 
 ## Tools
 - Python, pandas
