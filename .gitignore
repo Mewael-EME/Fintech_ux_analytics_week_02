@@ -1,3 +1,8 @@
+# Ignore data files and folders
+data/
+*.csv
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -26,4 +31,5 @@ ENV/
 
 # Output files
 *.csv
+
 
