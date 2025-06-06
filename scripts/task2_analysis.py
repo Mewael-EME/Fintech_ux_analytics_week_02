@@ -13,7 +13,7 @@ from src.themes import extract_keywords, map_themes
 df = pd.read_csv("data/ethiopian_bank_reviews_clean.csv")  # Make sure this exists and has required content
 
 # Print original columns
-print("🔍 Original Columns:", df.columns.tolist())
+print(" Original Columns:", df.columns.tolist())
 
 # Rename to match desired schema if needed
 if 'review' in df.columns:
