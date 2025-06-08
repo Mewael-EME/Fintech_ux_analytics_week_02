@@ -29,3 +29,13 @@ This project collects and analyzes Google Play Store reviews for:
 - google-play-scraper
 - Git + GitHub
 "# Fintech_ux_analytics_week_02" 
+
+
+### Topic Modeling 
+To explore hidden themes, I applied LDA topic modeling using Gensim:
+
+- Preprocessing includes tokenization, stopword removal, and lowercasing.
+- 5 topics were generated across all reviews to uncover recurring concerns.
+- This is a supplementary view to the rule-based theme mapping in `identified_themes`.
+
+Run `task2_analysis.py` to print the top 5 LDA topics and save per-bank theme counts in `themes_per_bank.csv`.
