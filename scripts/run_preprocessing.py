@@ -25,7 +25,7 @@ def main():
     df_clean = preprocess_reviews(df_raw)
     print(f" Cleaned data shape: {df_clean.shape}")
 
-    print("💾 Saving cleaned data...")
+    print("Saving cleaned data...")
     df_clean.to_csv(output_path, index=False)
     print(f" Cleaned data saved to: {output_path}")
 
